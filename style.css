@@ -9,3 +9,71 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: 'Karla', sans-serif;
 }
+
+/*************  nav ****************/
+.desktop-nav{
+    display: none;
+}
+
+.mobile-nav{
+    /* height: 100vh; */
+    /* justify-content: center; */
+}
+
+
+.mobile-nav .header-imgs{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    /* padding-bottom: 0; */
+    background-color: white;
+}
+
+.header-imgs .logo-mobile{
+    height: 25px;
+}
+
+.mobile-nav ul{
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+    background:url("/images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: hsl(270, 9%, 17%);
+    height: 90vh;
+}
+
+.mobile-nav ul li{
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+}
+
+.mobile-nav ul li:last-child{
+    border: 2px solid;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.close-open img{
+    cursor: pointer;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+/**************  setion1***************/
+
+.humanizing-img{
+    background: url("/images/image-intro-mobile.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1115rem;
+}
